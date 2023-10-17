@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .add{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Surendra Payments Form</h1>
+            <h2>Contact Information</h2>
+            <p>Name: * <input type="text" name="name"> required</p>
+            <fieldset>
+                <legend> * Gender</legend>
+            <p>    
+                male <input type="radio" name="gender" id="male" required> female <input type="radio" name="gender" id="female" required>
+             </p>
+        </fieldset>
+        <p>Email: * <input type=Email" name="email" id="email" required></p>
+        <p>Pincode: * <input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+        <h2>payment Information</h2>
+        <p>Card type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a card type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">Mastercard</option>
+            </section>
+        </p>
+            <p> Card Number * <input type="number" name="card_number" id="card_number" required> </p>
+        <p>Expiration Date: * <input type="date" name="exp_Card" id="exp_date" required> </p>
+       <P>CVV * <input type="pasword" name="cvv" id="cvv" required></p>
+        <input types="submit" value="pay now">
+        </form>
+    </div>
+</body>
+</html>
